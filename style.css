@@ -49,7 +49,7 @@ header p{
 }
 .second-part{
     display: flex;
-    padding: 60px 70px 30px;
+    padding: 60px 180px 30px;
 }
 
 main h1 {
@@ -76,8 +76,78 @@ main p {
 
 .third-part{
         display: flex;
-        padding: 10px 70px 30px;
+        padding: 10px 180px 30px;
 }
 .third-part .left-side {
     padding-left: 30px;
+}
+
+.fourth-part{
+        margin-top: 30px;
+            margin-bottom: 60px;
+}
+
+.fourth-part .upper-part{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.fourth-part .lower-part .row1{
+    display: flex;
+    justify-content: center;
+}
+.fourth-part .lower-part  .row1 > div{
+    width: 350px;
+    height: 150px;
+    background-color: #FEF4F5;
+    margin: 10px;
+    display: flex;  
+    padding: 30px;
+}
+.imagepart{
+    width: 30%;
+}
+
+.textpart{
+    width: 100%;
+}
+.fourth-part .lower-part .row2{
+    display: flex;
+    justify-content: center;
+}
+.fourth-part .lower-part  .row2 > div{
+    width: 350px;
+    height: 150px;
+    background-color: #FEF4F5;
+    margin: 10px;
+    display: flex;  
+    padding: 30px;
+}
+.imagepart{
+    width: 30%;
+}
+.textpart{
+    width: 100%;
+}
+.fifth-part{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.fifth-part img{
+    width: 350px;
+    margin: 10px;
+}
+.sixsth-part .upper-part {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.seventh-part{}
+
+.seventh-part div {
+    width: 300px;
+    height: auto;
+}
+.seventh-part div img{
+    width: 300px;
+    height: auto;
 }
