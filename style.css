@@ -98,7 +98,7 @@ main p {
 .fourth-part .lower-part  .row1 > div{
     width: 350px;
     height: 150px;
-    background-color: #FEF4F5;
+    background-color: #0eccd5;
     margin: 10px;
     display: flex;  
     padding: 30px;
@@ -117,7 +117,7 @@ main p {
 .fourth-part .lower-part  .row2 > div{
     width: 350px;
     height: 150px;
-    background-color: #FEF4F5;
+    background-color: #ff0820bf;
     margin: 10px;
     display: flex;  
     padding: 30px;
@@ -125,6 +125,10 @@ main p {
 .imagepart{
     width: 30%;
 }
+.imagepart img {
+    width: 80%;
+}
+ 
 .textpart{
     width: 100%;
 }
@@ -156,15 +160,12 @@ main p {
     overflow: hidden;
     margin: 20px;
 }
-.seventh-part .card {
-    /* text-align: justify; */
-}
 .seventh-part .card div {
     padding: 27px;
 }
 .seventh-part div img{
     width: 100%;
-    /* height: auto; */
+    height: 200px;
 }
 .card a{
     font-family: 'Inter', sans-serif;
