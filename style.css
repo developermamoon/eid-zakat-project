@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0)),url("images/hat.jpg");
+    background-position:bottom;
+    background-size:cover;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+    height: 400px;
+    width: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header div{
+    transform: scaleX(-1);
+    width: 80%;
+}
+header h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+header p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin: 15px 0px;
+}
+.button-design{
+    font-family: 'Inter', sans-serif;
+    background-color: red;
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.button-design:hover{
+    background-color: rgb(206, 1, 1);
+    color: white;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+.second-part{
+    display: flex;
+    padding: 60px 70px 30px;
+}
+
+main h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+main p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    margin: 15px 0px;
+}
+.left-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-right: 30px ;
+}
+.right-side{
+    text-align: center;
+}
+
+.third-part{
+        display: flex;
+        padding: 10px 70px 30px;
+}
+.third-part .left-side {
+    padding-left: 30px;
+}
